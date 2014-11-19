@@ -1,0 +1,20 @@
+{
+
+   "name": "Search in Google Maps",
+   "description": "Add a context menu item to search for selected text at Google Maps.",
+   "manifest_version": 2,
+   "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "minimum_chrome_version": "6",
+   "background": {
+        "scripts": ["background.js"]
+   },
+   "permissions": [ "contextMenus", "tabs" ],
+   "version": "1.1",
+    "browser_action": {
+    "default_icon": "icons/icon16.png",
+    "default_popup": "box.html"
+   }
+}
